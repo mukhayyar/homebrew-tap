@@ -4,7 +4,7 @@ cask "twin" do
 
   url "https://github.com/mukhayyar/twin/releases/download/v#{version}/Twin-#{version}.zip"
   name "Twin"
-  desc "Clone any Mac app into a twin with its own isolated profile"
+  desc "Clone any app into a twin with its own isolated profile"
   homepage "https://github.com/mukhayyar/twin"
 
   depends_on macos: :sonoma
