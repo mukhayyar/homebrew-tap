@@ -1,12 +1,18 @@
 class Twin < Formula
   desc "Clone any app into a twin with its own isolated profile"
   homepage "https://github.com/mukhayyar/twin"
-  version "0.3.0"
   license "MIT"
 
+  # One universal binary serves both Mac architectures.
   on_macos do
-    url "https://github.com/mukhayyar/twin/releases/download/v0.3.0/twin_0.3.0_darwin_universal.tar.gz"
-    sha256 "811ba414cb536b4cd586eb9db775bee3fa26c1728d0b872c16b823bb686605a2"
+    on_arm do
+      url "https://github.com/mukhayyar/twin/releases/download/v0.3.0/twin_0.3.0_darwin_universal.tar.gz"
+      sha256 "811ba414cb536b4cd586eb9db775bee3fa26c1728d0b872c16b823bb686605a2"
+    end
+    on_intel do
+      url "https://github.com/mukhayyar/twin/releases/download/v0.3.0/twin_0.3.0_darwin_universal.tar.gz"
+      sha256 "811ba414cb536b4cd586eb9db775bee3fa26c1728d0b872c16b823bb686605a2"
+    end
   end
 
   on_linux do
