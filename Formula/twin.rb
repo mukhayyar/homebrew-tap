@@ -6,23 +6,23 @@ class Twin < Formula
   # One universal binary serves both Mac architectures.
   on_macos do
     on_arm do
-      url "https://github.com/mukhayyar/twin/releases/download/v0.6.0/twin_0.6.0_darwin_universal.tar.gz"
-      sha256 "3949e68bf80367def22c6a085e02bad181accb900fabca5e30dc8d2da1291175"
+      url "https://github.com/mukhayyar/twin/releases/download/v0.6.1/twin_0.6.1_darwin_universal.tar.gz"
+      sha256 "bf95201117d38c02c8cc92f2455cdb55ec8e2ee035d02a51a1ed3b947135c4ad"
     end
     on_intel do
-      url "https://github.com/mukhayyar/twin/releases/download/v0.6.0/twin_0.6.0_darwin_universal.tar.gz"
-      sha256 "3949e68bf80367def22c6a085e02bad181accb900fabca5e30dc8d2da1291175"
+      url "https://github.com/mukhayyar/twin/releases/download/v0.6.1/twin_0.6.1_darwin_universal.tar.gz"
+      sha256 "bf95201117d38c02c8cc92f2455cdb55ec8e2ee035d02a51a1ed3b947135c4ad"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/mukhayyar/twin/releases/download/v0.6.0/twin_0.6.0_linux_amd64.tar.gz"
-      sha256 "342299fd1e0d1cfd6ad695a5bb411032dc864c54db35853cf17c8bd43a646847"
+      url "https://github.com/mukhayyar/twin/releases/download/v0.6.1/twin_0.6.1_linux_amd64.tar.gz"
+      sha256 "cbfee348a317bdf757f0490c1d1f68213d923c1192fde6224dfb440ce4739f97"
     end
     on_arm do
-      url "https://github.com/mukhayyar/twin/releases/download/v0.6.0/twin_0.6.0_linux_arm64.tar.gz"
-      sha256 "161ac5bacbe2640fc9987a07c8a9056be9f39fded629b2ae48f14619d2323b84"
+      url "https://github.com/mukhayyar/twin/releases/download/v0.6.1/twin_0.6.1_linux_arm64.tar.gz"
+      sha256 "712c77bef54b732afef72541369abc1616425064d1ebb61dce5f7615c6734ebe"
     end
   end
 
