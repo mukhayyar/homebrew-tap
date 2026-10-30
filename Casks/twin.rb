@@ -1,6 +1,6 @@
 cask "twin" do
-  version "0.5.4"
-  sha256 "aad2c50d68726ca207094edd0d437f4dedbe18b576d004da6abc45ee273f3bdb"
+  version "0.6.0"
+  sha256 "79799af105dd5f941d1a92853e9464ec0204b329fb353a8e8c63458740935b02"
 
   url "https://github.com/mukhayyar/twin/releases/download/v#{version}/Twin-#{version}.zip"
   name "Twin"
